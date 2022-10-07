@@ -1,0 +1,24 @@
+@import 'sweetalert2.css';
+
+:root {
+
+    --cor_1:rgb(93, 0, 243);
+    --cor_2:#fff;
+    --cor_3:rgb(235, 235, 235);
+
+}
+
+* {
+
+    margin:0px;
+    padding:0px;
+
+}
+
+.org {
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+}
