@@ -17,6 +17,8 @@ $('#login').on('submit',(v)=>{
                 text:'Login bem sucedido!',
                 showConfirmButton:false,
                 timer:2000
+            }).then(()=>{
+                location.href='./home.php'
             });
         },
         error:(erro) => {
