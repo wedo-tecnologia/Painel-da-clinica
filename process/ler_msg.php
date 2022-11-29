@@ -1,5 +1,4 @@
 <?php
-    include('../vendor/autoload.php');
     $server_con = '{imap.gmail.com:993/imap/ssl}INBOX';
     $user = '';
     $senha = '';
